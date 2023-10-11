@@ -75,7 +75,7 @@ Hay otro ejemplo en mi web personal: [Ir a la web](https://www.jacrdeveloper.es)
 
 Si encuentras útil este plugin y me quieres invitar a un café :)
 
-- **PayPal**: [Invítame a un café :)]https://www.paypal.me/jacrdeveloper
+- **PayPal**: [Send café :)](https://www.paypal.me/jacrdeveloper)
 
 Tu apoyo es muy apreciado. ¡Gracias!
 
