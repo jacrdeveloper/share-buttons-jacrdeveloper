@@ -1,0 +1,84 @@
+/*!
+ * Nombre del Proyecto: Share Buttons by Jacrdeveloper
+ * Versión: 1.0.0
+ * Autor: jacrdeveloper - Jesús Antonio Campo Román
+ * Licencia: Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)
+ * Enlace de la Licencia: https://creativecommons.org/licenses/by-sa/4.0/
+ * GitHub: https://github.com/jacrdeveloper/share-buttons-jacrdeveloper
+ */
+ 
+#socialShareMenu {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+  flex-direction: column;
+  display: flex;
+  border-radius: 0 5px 5px 0;
+  border: 3px solid #212529;
+}
+
+.social-icon {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #212529;
+}
+
+.social-icon svg {
+	color: #ffffff;
+  	font-weight: bolder;
+  	font-size: 20px;
+}
+
+/* Cambio a horizontal para resoluciones bajas */
+@media (max-width: 768px) {
+  #socialShareMenu {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    flex-direction: row;
+  }
+}
+
+.social-icon.facebook {
+	background-color: #385898 !important;
+}
+
+.social-icon.twitter {
+	background-color: rgb(39, 44, 48) !important;
+}
+
+.social-icon.whatsapp {
+	background-color: #25d366 !important;
+}
+
+.social-icon.linkedin {
+	background-color: #0a66c2 !important;
+}
+
+.social-icon.reddit {
+	background-color: #D93A00 !important;
+}
+
+.social-icon.pinterest {
+	background-color: #e60023 !important;
+}
+
+.social-icon.clipboard {
+	background-color: #aaaaaa !important;
+}
+
+.social-icon.envelope {
+	background-color: #aaaaaa !important;
+}
+
+.social-icon.print {
+	background-color: #aaaaaa !important;
+}
+
+
+.social-icon.clipboard svg,  .social-icon.envelope svg, .social-icon.print svg{
+	color:#ffffff !important;
+}
