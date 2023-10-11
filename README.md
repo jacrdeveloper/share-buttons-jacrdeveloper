@@ -41,17 +41,17 @@ Este plugin permite a los desarrolladores web añadir fácilmente botones social
 <body>
 
 	<h1> Hola mundo - jacrdeveloper</h1>
-  <script type="text/javascript">
-    $(document).ready(function() {
-        $('body').socialShareMenu();
-    });
-</script>
+  	<script type="text/javascript">
+    		$(document).ready(function() {
+		        $('body').socialShareMenu();
+    		});
+	</script>
 
 </body>
 </html>
 ```
 
-Hay otro ejemplo en mi web personal: [Ir a la web]https://www.jacrdeveloper.es y un par de capturas en el repositorio:
+Hay otro ejemplo en mi web personal: [Ir a la web](https://www.jacrdeveloper.es) y un par de capturas en el repositorio:
 - captura_1_share_buttons_jacrdeveloper.png
 - captura_2_share_buttons_jacrdeveloper.png
 
