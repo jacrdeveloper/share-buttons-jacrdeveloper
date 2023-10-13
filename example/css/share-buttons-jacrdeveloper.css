@@ -1,9 +1,8 @@
 /*!
  * Nombre del Proyecto: Share Buttons by Jacrdeveloper
- * Versión: 1.0.0
+ * Versión: 1.0.1
  * Autor: jacrdeveloper - Jesús Antonio Campo Román
- * Licencia: Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)
- * Enlace de la Licencia: https://creativecommons.org/licenses/by-sa/4.0/
+ * Licencia: MIT
  * GitHub: https://github.com/jacrdeveloper/share-buttons-jacrdeveloper
  */
  
@@ -35,10 +34,14 @@
 @media (max-width: 768px) {
   #socialShareMenu {
     top: auto;
-    bottom: 0;
-    left: 0;
+    bottom: 20px;
+    left: 10px;
     transform: none;
     flex-direction: row;
+  }
+  
+  .social-icon {
+	  padding: 5px !important;
   }
 }
 
